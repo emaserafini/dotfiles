@@ -1,0 +1,21 @@
+[user]
+	name = Emanuele Serafini
+	email = ema.serafini@gmail.com
+[color]
+  ui = auto
+[bash]
+  showDirtyState = true
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  rb = rebase
+  br = branch
+  pl = pull
+  pu = push
+  ad = add
+  mt = mergetool
+  lg = log --graph --name-status --oneline
+
+[push]
+	default = matching

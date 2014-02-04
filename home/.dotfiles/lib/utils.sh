@@ -17,4 +17,5 @@ alias be='bundle exec'
 alias reload='source ~/.bash_profile'
 alias grep='grep --color=auto' # grep with color
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
-alias confighosts='subl /etc/hosts'
+alias sethosts='mate /etc/hosts'
+alias flushdns='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
